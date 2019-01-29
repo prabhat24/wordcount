@@ -1,0 +1,13 @@
+<html>
+    <h1>search results</h1>
+    <br>
+        <body>
+            <table border = "1">
+                {% for x in dic %}
+                <tr><td>{{ x.name }}</td> <td>{{ x.contact_det }}</td></tr>
+
+                {% endfor %}
+
+            </table>
+        </body>
+</html>
